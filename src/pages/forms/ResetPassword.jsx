@@ -56,24 +56,9 @@ export default function Register() {
 
   async function submit(values) {
     console.log(values);
-    toast.success(`veuillez lire vos email'+" "+${values.email}`);
+    toast.success(`veuillez consulter vos email à l'adresse'+" "+${values.email}`);
    
-    // try {
-    //    // console.log(feedback);
-    //   const feedback = await signup(values); 
-
-    //   if (!feedback.message) {
-    //     reset(defaultValues);
-    // toast.success(`Veuillez lire vos mail`)
-    //     //navigate("/");
-    //   } else {
-    //     toast.error(feedback.message);
-    //   }
-    // } catch (error) {
-//       console.log(error);
-//             toast.error("Une erreur s'est produite lors de l'inscription.");
-
-//     }
+    
   }
   return (
     <div className="flex-1 flex items-center justify-center">
